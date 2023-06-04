@@ -1,0 +1,103 @@
+// Designed for Our Beloved Anforcom
+
+Table announcement {
+  _id objectid [not null, pk]
+  title string [not null]
+  body string [not null]
+  createdAt datetime
+  updateAt datetime
+}
+
+Table category {
+  _id objectid [not null, pk]
+  name string [not null]
+  createdAt datetime
+  updateAt datetime
+}
+
+Table event {
+  _id objectid [not null, pk]
+  name string [not null]
+  shortName string [not null]
+  theme string [not null]
+  category objectid [ref: > category._id]
+  ruleBook string
+  description string [not null]
+  isOpenRegistration boolean [not null]
+  isOpenSubmission boolean [not null]
+  registrationFee number
+  thumbnail string
+  filename string
+  createdAt datetime
+  updateAt datetime
+}
+
+Table participant {
+  _id objectid [not null, pk]
+  email string [not null]
+  name string [not null]
+  degree string [not null]
+  password string [not null]
+  institution string
+  phoneNumber string
+  ktm string
+  ktmFileName string
+  status string
+  verified boolean
+  createdAt datetime
+  updateAt datetime
+}
+
+Table submission {
+  _id objectid [not null, pk]
+  team objectid [ref: > team._id]
+  proposal string
+  proposalFileName string
+  createdAt datetime
+  updateAt datetime
+}
+
+Table team {
+  _id objectid [not null, pk]
+  name string [not null]
+  institution string [not null]
+  code string [not null]
+  event objectid [ref: > event._id]
+  leader objectid [ref: - participant._id]
+  participant2 objectid [ref: - participant._id]
+  participant3 objectid [ref: - participant._id]
+  transferStatus string
+  transfer string
+  transferFileName string
+  status string
+  createdAt datetime
+  updateAt datetime
+}
+
+Table timeline {
+  _id objectid [not null, pk]
+  name string [not null]
+  date date [not null]
+  status boolean [not null]
+  event objectid [ref: > event._id]
+  createdAt datetime
+  updateAt datetime
+}
+
+Table token {
+  _id objectid [not null, pk]
+  email string [not null]
+  token strng [not null]
+}
+
+Table user {
+  _id objectid [not null, pk]
+  email string [not null]
+  name string [not null]
+  password string [not null]
+  role string
+  status string
+  phoneNumber string [not null]
+  createdAt datetime
+  updateAt datetime
+}
