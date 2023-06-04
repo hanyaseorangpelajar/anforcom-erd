@@ -8,14 +8,12 @@
 
 Sumber daya dan layanan yang dipakai:
 <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</l>
+  <li>dbdiagram.io [access link: tydac ada harus beli Pro :&#8964;]</li>
+  <li>GitHub</li>
+  <li>Visual Studio Code</li>
+  <li>Mongoose Docs</li>
+  <li>Catatan PPT dan tugas Basis Data saya</li>
+</ol>
 <br>
 
 ERD (Entity-Relationship Diagram) repository untuk event "Anforcom" dirancang untuk menggambarkan entitas-entitas dan hubungan antar entitas yang terlibat dalam sistem manajemen acara ini.
