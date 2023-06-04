@@ -28,7 +28,7 @@ ERD (Entity-Relationship Diagram) repository untuk event "Anforcom" dirancang un
 </div>
 <br>
 
-<p>__NOTE: Masih tahap pengambangan sebagian model belum dibuat, jika ada pertanyaan dan saran dapat menghubungi mailto:muhammadbhaska@students.undip.ac.id__</p>
+<p>**NOTE: Masih tahap pengambangan sebagian model belum dibuat, jika ada pertanyaan dan saran dapat menghubungi mailto:muhammadbhaska@students.undip.ac.id**</p>
 <div align="center">
   <footer>
     <p>Made With &#x2764; by Adri Audifirst</p>
