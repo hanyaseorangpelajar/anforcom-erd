@@ -14,6 +14,9 @@ ERD (Entity-Relationship Diagram) repository untuk event "Anforcom" dirancang un
 </div>
 <br>
 
+<p>Entitas-entitas dan hubungan mereka membentuk struktur inti dari sistem manajemen acara Anforcom. Dengan menggambarkannya dalam ERD, dapat divisualisasikan dan memahami hubungan antar entitas serta merancang skema database yang efisien untuk mendukung fungsionalitas manajemen acara Anforcom.</p>
+<br>
+
 <div align="center">
   <footer>
     <p>Made With &#x2764; by Adri Audifirst</p>
