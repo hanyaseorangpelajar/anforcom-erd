@@ -28,7 +28,7 @@ Entitas-entitas dan hubungan mereka membentuk struktur inti dari sistem manajeme
 </div>
 <br>
 
-**NOTE: Masih tahap pengambangan sebagian model belum dibuat, jika ada pertanyaan dan saran dapat menghubungi** <adriaudifirst@gmail.com> <faishalbariqmaulana123@gmail.com> <muhammadbhaska@students.undip.ac.id>
+**NOTE: Masih tahap pengambangan sebagian model belum dibuat, jika ada pertanyaan dan saran dapat menghubungi** <adriaudifirst@gmail.com>, <faishalbariqmaulana123@gmail.com>, dan <muhammadbhaska@students.undip.ac.id>
 <div align="center">
   <footer>
     <p>Made With &#x2764; by Adri Audifirst</p>
