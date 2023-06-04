@@ -8,7 +8,8 @@ ERD (Entity-Relationship Diagram) repository untuk event "Anforcom" dirancang un
 
 
 
-
-<footer align="center">
-   <p>Made With &#x2764; by Adri Audifirst</p>
-</footer>
+<div align="center">
+  <footer>
+    <p>Made With &#x2764; by Adri Audifirst</p>
+  </footer>
+</div>
