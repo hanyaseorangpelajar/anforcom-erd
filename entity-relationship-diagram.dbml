@@ -77,7 +77,8 @@ Table team {
 Table timeline {
   _id objectid [not null, pk]
   name string [not null]
-  date date [not null]
+  startDate datetime [not null]
+  endDate datetime
   status boolean [not null]
   event objectid [ref: > event._id]
   createdAt datetime
