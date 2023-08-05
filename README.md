@@ -2,19 +2,8 @@
 <br>
 
 <div  align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/desktop-hero-home.svg" width="10%" height="auto">
+  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/desktop-hero-home.svg" width="50%" height="auto">
 </div>
-<br>
-
-Sumber daya dan layanan yang dipakai:
-<ol>
-  <li>dbdiagram.io [access link: tydac ada harus beli Pro :)]</li>
-  <li>GitHub</li>
-  <li>Visual Studio Code</li>
-  <li>Anforcom 2022</li>
-  <li>Mongoose Docs</li>
-  <li>Catatan PPT dan tugas Basis Data saya</li>
-</ol>
 <br>
 
 ERD (Entity-Relationship Diagram) event Anforcom dirancang untuk menggambarkan entitas-entitas dan hubungan antar entitas yang terlibat dalam sistem manajemen acara ini.
@@ -24,13 +13,6 @@ Entitas-entitas dan hubungan mereka membentuk struktur inti dari sistem manajeme
 <br>
 
 <div align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/anforcom23.jpg" width="40%" height="auto">
+  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/ANFORCOM%202020.png" width="40%" height="auto">
 </div>
 <br>
-
-**NOTE: Masih tahap pengambangan sebagian model belum dibuat, jika ada pertanyaan dan saran dapat menghubungi** <adriaudifirst@students.undip.ac.id>, <faishalbariqmaulana123@gmail.com>, dan <muhammadbhaska@students.undip.ac.id>
-<div align="center">
-  <footer>
-    <p>Made With &#x2764; by Adri Audifirst</p>
-  </footer>
-</div>
