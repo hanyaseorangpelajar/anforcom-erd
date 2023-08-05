@@ -2,7 +2,7 @@
 <br>
 
 <div  align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/images/anforcom23.jpg" width="10%" height="auto">
+  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/desktop-hero-home.svg" width="10%" height="auto">
 </div>
 <br>
 
@@ -24,7 +24,7 @@ Entitas-entitas dan hubungan mereka membentuk struktur inti dari sistem manajeme
 <br>
 
 <div align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/images/erd.png" width="40%" height="auto">
+  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/anforcom23.jpg" width="40%" height="auto">
 </div>
 <br>
 
