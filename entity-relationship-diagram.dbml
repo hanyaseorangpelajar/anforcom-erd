@@ -1,5 +1,13 @@
 // Designed for Our Beloved Anforcom
 
+/*
+R
+<: one-to-many.
+>: many-to-one.
+-: one-to-one.
+<>: many-to-many.
+*/
+
 Table announcement {
   _id objectid [not null, pk]
   title string [not null]
@@ -32,6 +40,44 @@ Table event {
   updateAt datetime
 }
 
+Table faq {
+  _id objectid [not null, pk]
+  question string [not null]
+  answer string [not null]
+  event objectid [ref: < event._id]
+  createdAt datetime
+  updateAt datetime
+}
+
+Table general_timeline {
+  _id objectid [not null, pk]
+  start_date datetime [not null]
+  end_date datetime [not null]
+  category objectid [ref: < category._id]
+  createdAt datetime
+  updateAt datetime
+}
+
+Table highlight {
+  _id objectid [not null, pk]
+  highlightImage string [not null]
+  fileName string [not null]
+  desc string [not null]
+  category objectid [ref: > category._id]
+  createdAt datetime
+  updateAt datetime
+}
+
+Table highlight_event {
+  _id objectid [not null, pk]
+  highlightImage string [not null]
+  fileName string [not null]
+  desc string [not null]
+  event objectid [ref: > event._id]
+  createdAt datetime
+  updateAt datetime
+}
+
 Table participant {
   _id objectid [not null, pk]
   email string [not null]
@@ -44,6 +90,16 @@ Table participant {
   ktmFileName string
   status string
   verified boolean
+  createdAt datetime
+  updateAt datetime
+}
+
+Table prize {
+  _id objectid [not null, pk]
+  title string [not null]
+  prizeValue string [not null]
+  addOns String
+  event objectid [ref: > event._id]
   createdAt datetime
   updateAt datetime
 }
@@ -88,7 +144,7 @@ Table timeline {
 Table token {
   _id objectid [not null, pk]
   email string [not null]
-  token strng [not null]
+  token string [not null]
 }
 
 Table user {
