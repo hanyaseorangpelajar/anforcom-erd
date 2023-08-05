@@ -13,6 +13,6 @@ Entitas-entitas dan hubungan mereka membentuk struktur inti dari sistem manajeme
 <br>
 
 <div align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/ANFORCOM%202020.png" width="40%" height="auto">
+  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/ANFORCOM%202023.png" width="40%" height="auto">
 </div>
 <br>
