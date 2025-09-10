@@ -4,7 +4,7 @@
 
 <p> The ERD (Entity-Relationship Diagram) for the Anforcom event is designed to illustrate the entities and the relationships between them that are involved in this event management system. </p>
 
-## ANFORCOM 2023
+## Disclaimer
 > This project is **NOT** licensed and all rights are reserved. <br/>
 > You are not allowed to use this project for commercial purposes. <br/>
 
