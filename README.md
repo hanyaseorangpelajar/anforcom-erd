@@ -1,18 +1,14 @@
-# Anforcom ERD
-<br>
-
-<div  align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/desktop-hero-home.svg" width="50%" height="auto">
+<div align="left">
+  <h1>ANFORCOM ERD</h1>
 </div>
-<br>
 
-ERD (Entity-Relationship Diagram) event Anforcom dirancang untuk menggambarkan entitas-entitas dan hubungan antar entitas yang terlibat dalam sistem manajemen acara ini.
-<br>
+<p> The ERD (Entity-Relationship Diagram) for the Anforcom event is designed to illustrate the entities and the relationships between them that are involved in this event management system. </p>
 
-Entitas-entitas dan hubungan mereka membentuk struktur inti dari sistem manajemen acara Anforcom. Dengan menggambarkannya dalam ERD, dapat divisualisasikan dan memahami hubungan antar entitas serta merancang skema database yang efisien untuk mendukung fungsionalitas manajemen acara Anforcom.
-<br>
+## ANFORCOM 2023
+> This project is **NOT** licensed and all rights are reserved. <br/>
+> You are not allowed to use this project for commercial purposes. <br/>
 
-<div align="center">
-  <img src="https://github.com/hanyaseorangpelajar/anforcom-erd/blob/main/image/ANFORCOM%202023.png" width="40%" height="auto">
-</div>
-<br>
+## Contributors
+<a href="https://github.com/hanyaseorangpelajar/anforcom-erd/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hanyaseorangpelajar/anforcom-erd" />
+</a>
